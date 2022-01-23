@@ -12,6 +12,9 @@ public class JavaFirst {
 		System.out.println(r.area());
 
 
+		Point point1 = new Point(20,10);
+		Point point2 = new Point(30,12);
+		System.out.println(Point.distance(point1,point2));
 
 
 
