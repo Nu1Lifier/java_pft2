@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.ContactCreation" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-29T13:35:18" hostname="DESKTOP-HIQS46T" time="0.803">
+  <properties/>
+  <testcase name="testContactCreation" classname="ru.stqa.pft.addressbook.ContactCreation" time="0.803"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1643463315201	geckodriver	INFO	Listening on 127.0.0.1:50625
+1643463315929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50449" "-no-remote" "-profile" "C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile6kz7yd"
+1643463316132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile6kz7yd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50449/devtools/browser/34379982-ec3c-40b9-9f3e-01341919d856
+1643463317630	Marionette	INFO	Listening on port 55103
+1643463317958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+янв 29, 2022 4:35:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1643463319073	Marionette	INFO	Stopped listening on port 55103
+]]></system-err>
+</testsuite>
