@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-30T12:36:04" hostname="DESKTOP-HIQS46T" time="0.661">
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-30T13:06:57" hostname="DESKTOP-HIQS46T" time="0.673">
   <properties/>
-  <testcase name="testGroupDeletion" classname="ru.stqa.pft.addressbook.tests.GroupDeletionTests" time="0.661"/>
+  <testcase name="testGroupDeletion" classname="ru.stqa.pft.addressbook.tests.GroupDeletionTests" time="0.673"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1643546161572	geckodriver	INFO	Listening on 127.0.0.1:52159
-1643546162304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53245" "-no-remote" "-profile" "C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile9ZHhXH"
-1643546162495	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile9ZHhXH\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53245/devtools/browser/e05dcea7-9de6-4505-aa39-36328ce7b463
-1643546164101	Marionette	INFO	Listening on port 61656
-1643546164348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-янв 30, 2022 3:36:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1643548013991	geckodriver	INFO	Listening on 127.0.0.1:61264
+1643548014724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58206" "-no-remote" "-profile" "C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofileb41lAO"
+1643548014914	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofileb41lAO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58206/devtools/browser/1dcc2bb4-1166-491b-bd40-6ab90fa4d65f
+1643548016475	Marionette	INFO	Listening on port 50309
+1643548016766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+янв 30, 2022 4:06:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
@@ -19,7 +19,7 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1643546165355	Marionette	INFO	Stopped listening on port 61656
+1643548017764	Marionette	INFO	Stopped listening on port 50309
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
