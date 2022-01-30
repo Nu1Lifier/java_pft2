@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 public class ContactCreation {
   private WebDriver wd;
 
-
   @BeforeMethod(alwaysRun = true)
   public void setUp() throws Exception {
     wd = new FirefoxDriver();
