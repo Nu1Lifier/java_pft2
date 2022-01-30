@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class ru.stqa.pft.addressbook.ContactCreation</title>
+<title>Test results - Class ru.stqa.pft.addressbook.GroupDeletionTests</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class ru.stqa.pft.addressbook.ContactCreation</h1>
+<h1>Class ru.stqa.pft.addressbook.GroupDeletionTests</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/ru.stqa.pft.addressbook.html">ru.stqa.pft.addressbook</a> &gt; ContactCreation</div>
+<a href="../packages/ru.stqa.pft.addressbook.html">ru.stqa.pft.addressbook</a> &gt; GroupDeletionTests</div>
 <div id="summary">
 <table>
 <tr>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.803s</div>
+<div class="counter">0.646s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testContactCreation</td>
-<td class="success">0.803s</td>
+<td class="success">testGroupDeletion</td>
+<td class="success">0.646s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,14 +87,14 @@
 <div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1643463315201	geckodriver	INFO	Listening on 127.0.0.1:50625
-1643463315929	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;50449&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile6kz7yd&quot;
-1643463316132	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofile6kz7yd\\search.json.mozlz4&quot;, (void 0)))
-DevTools listening on ws://localhost:50449/devtools/browser/34379982-ec3c-40b9-9f3e-01341919d856
-1643463317630	Marionette	INFO	Listening on port 55103
-1643463317958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-янв 29, 2022 4:35:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+<pre>1643541890863	geckodriver	INFO	Listening on 127.0.0.1:63057
+1643541891593	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;64829&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofileqSeAR7&quot;
+1643541891776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\Null\\AppData\\Local\\Temp\\rust_mozprofileqSeAR7\\search.json.mozlz4&quot;, (void 0)))
+DevTools listening on ws://localhost:64829/devtools/browser/307e1945-9dbc-488f-8faa-60b4547b94af
+1643541893289	Marionette	INFO	Listening on port 64981
+1643541893641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+янв 30, 2022 2:24:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
 console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
@@ -103,13 +103,10 @@ console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous mess
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;http://localhost&quot;
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1643463319073	Marionette	INFO	Stopped listening on port 55103
+1643541894586	Marionette	INFO	Stopped listening on port 64981
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 </pre>
 </span>
 </div>
@@ -121,7 +118,7 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at 29.01.2022 16:35:22</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 30.01.2022 14:24:55</p>
 </div>
 </div>
 </body>
