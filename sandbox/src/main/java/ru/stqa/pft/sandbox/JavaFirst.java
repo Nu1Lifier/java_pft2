@@ -15,18 +15,9 @@ public class JavaFirst {
 		Point p1 = new Point(20,10);
 		Point p2 = new Point(30,12);
 		System.out.println(p1.distance(p2));
-
-
-
-
-
 	}
 
 	public static void hello (String somebody){
 		System.out.println("Hello " + somebody);
 	}
-
-
-
-
 }
