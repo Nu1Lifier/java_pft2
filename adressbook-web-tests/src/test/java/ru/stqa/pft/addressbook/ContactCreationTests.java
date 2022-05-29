@@ -16,6 +16,9 @@ public class ContactCreationTests extends TestBase{
     goToHomePage();
     logout();
   }
+}
+
+
 
 //  private boolean isElementPresent(By by) {
 //    try {
@@ -34,4 +37,3 @@ public class ContactCreationTests extends TestBase{
 //      return false;
 //    }
 //  }
-}
