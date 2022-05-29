@@ -1,8 +1,9 @@
-package ru.stqa.pft.addressbook;
+package ru.stqa.pft.addressbook.tests;
 
 import org.testng.annotations.Test;
+import ru.stqa.pft.addressbook.model.ContactData;
 
-public class ContactCreationTests extends TestBase{
+public class ContactCreationTests extends TestBase {
 
 
   @Test
@@ -26,11 +27,5 @@ public class ContactCreationTests extends TestBase{
 //    }
 //  }
 //
-//  private boolean isAlertPresent() {
-//    try {
-//      wd.switchTo().alert();
-//      return true;
-//    } catch (NoAlertPresentException e) {
-//      return false;
-//    }
+//
 //  }
